@@ -40,7 +40,7 @@ const SustainChange = () => {
           </div>
         </div>
         <div className="mt-5">
-          <a href="#" className="btn btn-outline-about">About Us</a>
+          <button type="button" className="btn btn-outline-about">About Us</button>
         </div>
       </div>
     </section>

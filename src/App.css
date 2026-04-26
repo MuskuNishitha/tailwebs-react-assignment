@@ -43,7 +43,10 @@ body {
   text-decoration: none;
   font-size: 13px;
   font-weight: 500;
+  background: transparent;
+  border: 0;
   transition: color var(--transition);
+  cursor: pointer;
 }
 
 .top-link:hover {
@@ -111,7 +114,10 @@ body {
   font-weight: 500;
   color: var(--clr-navy) !important;
   padding: 8px 10px !important;
+  background: transparent;
+  border: 0;
   transition: color var(--transition);
+  cursor: pointer;
 }
 
 .nav-dd:hover {
@@ -127,6 +133,9 @@ body {
 .nav-search-icon {
   color: var(--clr-navy) !important;
   font-size: 15px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
 }
 
 /* Hero */
@@ -979,7 +988,9 @@ body {
   color: var(--clr-navy);
   font-size: 14px;
   text-decoration: none;
+  background: transparent;
   transition: all var(--transition);
+  cursor: pointer;
 }
 
 .social-icon-circle:hover {
@@ -1006,14 +1017,20 @@ body {
   margin-bottom: 14px;
 }
 
-.footer-links a {
+.footer-links a,
+.footer-links button {
   color: #555;
   text-decoration: none;
   font-size: 14px;
+  background: transparent;
+  border: 0;
+  padding: 0;
   transition: color var(--transition);
+  cursor: pointer;
 }
 
-.footer-links a:hover {
+.footer-links a:hover,
+.footer-links button:hover {
   color: var(--clr-teal);
 }
 
@@ -1082,14 +1099,20 @@ body {
   gap: 24px;
 }
 
-.footer-bottom-links a {
+.footer-bottom-links a,
+.footer-bottom-links button {
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   font-size: 13px;
+  background: transparent;
+  border: 0;
+  padding: 0;
   transition: color var(--transition);
+  cursor: pointer;
 }
 
-.footer-bottom-links a:hover {
+.footer-bottom-links a:hover,
+.footer-bottom-links button:hover {
   color: #fff;
 }
 

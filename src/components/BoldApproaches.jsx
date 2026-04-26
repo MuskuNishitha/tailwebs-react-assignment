@@ -34,7 +34,7 @@ const BoldApproaches = () => {
                   <div className="impact-card impact-teal">
                     <div className="impact-num">210+</div>
                     <p className="impact-desc">cities LIVE with 10BedICU across India</p>
-                    <a href="#" className="btn btn-white-pill mt-2">Read More</a>
+                    <button type="button" className="btn btn-white-pill mt-2">Read More</button>
                     <div className="impact-img-wrap">
                       <img src={bedImage} alt="ICU" className="impact-img" />
                     </div>
@@ -44,7 +44,7 @@ const BoldApproaches = () => {
                   <div className="impact-card impact-blue">
                     <div className="impact-num">2 Bn</div>
                     <p className="impact-desc">COVID-19 vaccination certificates issued</p>
-                    <a href="#" className="btn btn-white-pill mt-2">Read More</a>
+                    <button type="button" className="btn btn-white-pill mt-2">Read More</button>
                     <div className="impact-img-wrap">
                       <img src={vaccImage} alt="Vaccination" className="impact-img" />
                     </div>

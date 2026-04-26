@@ -13,28 +13,28 @@ const Footer = () => {
                 <div className="brand-sub-footer">FOUNDATION</div>
               </div>
               <p className="footer-tagline">Catalysing digital transformation in public service delivery at speed &amp; scale.</p>
-              <div className="social-icons mt-4">
-                <a href="#" className="social-icon-circle"><i className="fab fa-facebook-f"></i></a>
-                <a href="#" className="social-icon-circle"><i className="fab fa-x-twitter"></i></a>
-                <a href="#" className="social-icon-circle"><i className="fab fa-linkedin-in"></i></a>
-                <a href="#" className="social-icon-circle"><i className="fab fa-youtube"></i></a>
-              </div>
+                <div className="social-icons mt-4">
+                  <button type="button" className="social-icon-circle" aria-label="Facebook"><i className="fab fa-facebook-f"></i></button>
+                  <button type="button" className="social-icon-circle" aria-label="X"><i className="fab fa-x-twitter"></i></button>
+                  <button type="button" className="social-icon-circle" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></button>
+                  <button type="button" className="social-icon-circle" aria-label="YouTube"><i className="fab fa-youtube"></i></button>
+                </div>
             </div>
             <div className="col-lg-5 col-md-6">
               <h6 className="footer-col-heading">Useful Links</h6>
               <div className="row">
                 <div className="col-6">
                   <ul className="footer-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our Impact</a></li>
-                    <li><a href="#">DIGIT Sandbox</a></li>
+                    <li><button type="button">Home</button></li>
+                    <li><button type="button">Our Impact</button></li>
+                    <li><button type="button">DIGIT Sandbox</button></li>
                   </ul>
                 </div>
                 <div className="col-6">
                   <ul className="footer-links">
-                    <li><a href="#">Our People</a></li>
-                    <li><a href="#">Financials</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><button type="button">Our People</button></li>
+                    <li><button type="button">Financials</button></li>
+                    <li><button type="button">Contact Us</button></li>
                   </ul>
                 </div>
               </div>
@@ -54,8 +54,8 @@ const Footer = () => {
         <div className="container-xl d-flex flex-wrap justify-content-between align-items-center">
           <span className="footer-copy">©2024. eGov. All Rights Reserved.</span>
           <div className="footer-bottom-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms and Conditions</a>
+            <button type="button">Privacy Policy</button>
+            <button type="button">Terms and Conditions</button>
           </div>
         </div>
       </div>

@@ -18,8 +18,8 @@ const Navbar = () => {
     <>
       <div className="top-bar">
         <div className="container-xl d-flex justify-content-end align-items-center gap-4">
-          <a href="#" className="top-link">Events</a>
-          <a href="#" className="top-link">Contact us</a>
+          <button type="button" className="top-link btn btn-link p-0">Events</button>
+          <button type="button" className="top-link btn btn-link p-0">Contact us</button>
           <div className="lang-selector">
             <span className="flag">🇬🇧</span> ENG <i className="fa fa-caret-down ms-1"></i>
           </div>
@@ -40,25 +40,27 @@ const Navbar = () => {
             <div className="collapse navbar-collapse justify-content-end" id="navMenu">
               <ul className="navbar-nav align-items-center gap-1">
                 <li className="nav-item dropdown">
-                  <a className="nav-link nav-dd" href="#">About Us <i className="fa fa-chevron-down nav-arrow"></i></a>
+                  <button type="button" className="nav-link nav-dd btn btn-link">About Us <i className="fa fa-chevron-down nav-arrow"></i></button>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link nav-dd" href="#">Areas of work <i className="fa fa-chevron-down nav-arrow"></i></a>
+                  <button type="button" className="nav-link nav-dd btn btn-link">Areas of work <i className="fa fa-chevron-down nav-arrow"></i></button>
                 </li>
                 <li className="nav-item dropdown">
                   <Link className="nav-link nav-dd" to="/products">Products <i className="fa fa-chevron-down nav-arrow"></i></Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link nav-dd" href="#">Our Platform <i className="fa fa-chevron-down nav-arrow"></i></a>
+                  <button type="button" className="nav-link nav-dd btn btn-link">Our Platform <i className="fa fa-chevron-down nav-arrow"></i></button>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link nav-dd" href="#">Ecosystem <i className="fa fa-chevron-down nav-arrow"></i></a>
+                  <button type="button" className="nav-link nav-dd btn btn-link">Ecosystem <i className="fa fa-chevron-down nav-arrow"></i></button>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link nav-dd" href="#">Resources <i className="fa fa-chevron-down nav-arrow"></i></a>
+                  <button type="button" className="nav-link nav-dd btn btn-link">Resources <i className="fa fa-chevron-down nav-arrow"></i></button>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link nav-search-icon" href="#"><i className="fa fa-search"></i></a>
+                  <button type="button" className="nav-link nav-search-icon btn btn-link" aria-label="Search">
+                    <i className="fa fa-search"></i>
+                  </button>
                 </li>
               </ul>
             </div>

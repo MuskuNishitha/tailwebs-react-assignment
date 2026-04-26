@@ -76,7 +76,7 @@ const LatestSection = () => {
           </div>
         </div>
         <div className="mt-5">
-          <a href="#" className="btn btn-teal">See all</a>
+          <button type="button" className="btn btn-teal">See all</button>
         </div>
       </div>
     </section>

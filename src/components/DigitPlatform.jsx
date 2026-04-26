@@ -23,7 +23,7 @@ const DigitPlatform = () => {
             <p className="digit-body">
               DIGIT, short for Digital Infrastructure for Governance, Inclusion and Transformation is eGov's open-source platform with reusable building blocks and shared data registries that can be used to build solutions in multiple sectors.
             </p>
-            <a href="#" className="btn btn-outline-white-pill mt-3">Explore the platform</a>
+            <button type="button" className="btn btn-outline-white-pill mt-3">Explore the platform</button>
           </div>
           <div className="col-lg-6 digit-right">
             <img src={womenImage} alt="Woman using phone" className="digit-woman-img" />

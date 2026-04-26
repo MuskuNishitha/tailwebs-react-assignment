@@ -18,8 +18,8 @@ const Hero = () => {
               transparent services to every citizen.
             </p>
             <div className="hero-btns mt-4">
-              <a href="#" className="btn btn-teal me-3">Our Approach</a>
-              <a href="#" className="btn btn-outline-dark-circle">Our Impact</a>
+              <button type="button" className="btn btn-teal me-3">Our Approach</button>
+              <button type="button" className="btn btn-outline-dark-circle">Our Impact</button>
             </div>
           </div>
           <div className="col-lg-6 col-md-5 hero-img-col">

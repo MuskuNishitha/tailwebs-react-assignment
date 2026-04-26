@@ -1,0 +1,101 @@
+
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "DIGIT Platform",
+      "category": "platform",
+      "price": 0,
+      "description": "Open-source digital infrastructure platform for governance, inclusion and transformation.",
+      "image": "https://placehold.co/400x300/1a3060/ffffff?text=DIGIT+Platform"
+    },
+    {
+      "id": 2,
+      "name": "10BedICU Solution",
+      "category": "health",
+      "price": 0,
+      "description": "ICU management system that helped scale critical care across 210+ cities in India.",
+      "image": "https://placehold.co/400x300/2bbdb6/ffffff?text=10BedICU"
+    },
+    {
+      "id": 3,
+      "name": "eGov Vaccination Hub",
+      "category": "health",
+      "price": 0,
+      "description": "Enterprise vaccine management system that issued 2B+ COVID-19 certificates.",
+      "image": "https://placehold.co/400x300/1565c0/ffffff?text=Vaccination+Hub"
+    },
+    {
+      "id": 4,
+      "name": "Urban Governance Suite",
+      "category": "governance",
+      "price": 0,
+      "description": "Complete solution for municipal corporations to manage citizen services efficiently.",
+      "image": "https://placehold.co/400x300/f5821f/ffffff?text=Urban+Governance"
+    },
+    {
+      "id": 5,
+      "name": "MORTH Highway Analytics",
+      "category": "infrastructure",
+      "price": 0,
+      "description": "AI-powered analytics platform for highway management and traffic optimization.",
+      "image": "https://placehold.co/400x300/2d4a8c/ffffff?text=Highway+Analytics"
+    },
+    {
+      "id": 6,
+      "name": "eGov Water Management",
+      "category": "infrastructure",
+      "price": 0,
+      "description": "Smart water distribution and monitoring system for urban local bodies.",
+      "image": "https://placehold.co/400x300/1e9a94/ffffff?text=Water+Management"
+    },
+    {
+      "id": 7,
+      "name": "Public Finance Portal",
+      "category": "finance",
+      "price": 0,
+      "description": "Transparent public financial management system for government departments.",
+      "image": "https://placehold.co/400x300/3498db/ffffff?text=Public+Finance"
+    },
+    {
+      "id": 8,
+      "name": "Citizen Grievance Redressal",
+      "category": "governance",
+      "price": 0,
+      "description": "Digital platform for citizens to report and track public service complaints.",
+      "image": "https://placehold.co/400x300/2ecc71/ffffff?text=Grievance+Redressal"
+    },
+    {
+      "id": 9,
+      "name": "Property Tax Management",
+      "category": "finance",
+      "price": 0,
+      "description": "Automated property tax assessment and collection system for municipalities.",
+      "image": "https://placehold.co/400x300/e74c3c/ffffff?text=Property+Tax"
+    },
+    {
+      "id": 10,
+      "name": "Birth & Death Registry",
+      "category": "governance",
+      "price": 0,
+      "description": "Digital civil registration system for vital events management.",
+      "image": "https://placehold.co/400x300/9b59b6/ffffff?text=Civil+Registry"
+    },
+    {
+      "id": 11,
+      "name": "DIGIT Sandbox",
+      "category": "platform",
+      "price": 0,
+      "description": "Development environment for building and testing digital public goods.",
+      "image": "https://placehold.co/400x300/1abc9c/ffffff?text=DIGIT+Sandbox"
+    },
+    {
+      "id": 12,
+      "name": "Health Data Analytics",
+      "category": "health",
+      "price": 0,
+      "description": "Real-time health data dashboard for disease surveillance and resource planning.",
+      "image": "https://placehold.co/400x300/e67e22/ffffff?text=Health+Analytics"
+    }
+  ]
+}
